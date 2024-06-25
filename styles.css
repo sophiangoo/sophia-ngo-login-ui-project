@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(45deg, rgb(67, 67, 128), rgb(245, 93, 93));
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    border-radius: 10px;
+    padding: 50px 150px 70px 150px;
+    text-align: center;
+    box-shadow: 1px 1px 15px 2px rgb(187, 187, 187);
+    background-color: rgb(227, 217, 217);
+}
+
+.button {
+    background-color: rgb(40, 103, 221);
+    color: white;
+    border: none;
+    padding: 5px 60px 5px 60px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgb(227, 217, 217);
+}
+
+.button:hover {
+    background-color: rgb(34, 79, 174);
+}
+
